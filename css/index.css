@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top:10%;
 }
 
 .top-content {
@@ -101,6 +102,7 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -112,10 +114,119 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.bottom-content {
+    display:flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+
 }
 
 .bottom-content .text-container {
@@ -143,4 +254,90 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+nav{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display:inline-block;
+    flex-direction:row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding:48px;
+   
+}
+
+nav > ul > li > a{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    flex-direction:row;
+    align-items: baseline;
+    justify-content:space-evenly;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    margin-top:170px;
+}
+
+.logo-img{
+    align-items:baseline;
+    float: left;
+    position:relative;
+    margin-top:200px;
+    margin-left:200px;
+    width:200px;
+    height:50px;
+    display:flex;
+
+}
+.bg-div{
+   background:rgb(255, 255, 255);
+   overflow: hidden;
+   display:flex;
+   flex-direction: row;
+    justify-content:center;
+}
+.jumbo{
+   display:inline-flex;
+   flex-direction:row;
+   justify-content: center;
+   margin-left:auto;
+   margin-right:auto;
+   width:100%;
+}
+
+footer{
+    display:inline-block;
+}
+.aboutstrategy{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+   
+}
+.placescollab{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+   
+}
+
+c1{
+    display:inline;
+}
+button{
+    background-color: white;
+    border-radius:5px 5px;
+    width:100px;
+    height:25px;
 }
