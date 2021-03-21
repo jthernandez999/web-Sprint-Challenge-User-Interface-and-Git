@@ -281,12 +281,15 @@ nav > ul > li > a{
     color: rgb(0, 0, 0);
     display: inline-block;
     flex-direction:row;
-    align-items: baseline;
+    nav-left:inherit;
+    align-items: flex-start;
     justify-content:space-evenly;
     line-height: 2em;
     padding: 0.5em 1em;
     text-decoration: none;
     margin-top:170px;
+    margin-left:-40px;
+    margin-right:-40px;
 }
 
 .logo-img{
@@ -298,14 +301,18 @@ nav > ul > li > a{
     width:200px;
     height:50px;
     display:flex;
+    margin-left:170px;
+    margin-right:60px;
+    border-right:80px;
 
 }
 .bg-div{
    background:rgb(255, 255, 255);
-   overflow: hidden;
    display:flex;
    flex-direction: row;
     justify-content:center;
+    margin-right:10em;
+    margin-left:0em;
 }
 .jumbo{
    display:inline-flex;
@@ -341,3 +348,4 @@ button{
     width:100px;
     height:25px;
 }
+
