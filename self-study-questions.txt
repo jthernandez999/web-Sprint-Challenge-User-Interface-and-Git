@@ -1,0 +1,15 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+semantic html lays out the fundimental structure for your html skeleton. It organizes your code so that its clear what every section is. 
+
+Name two big differences between display: block; and display: inline;.
+display:block allows to set a width and height. display:inline display margins and paddings are not respected
+
+What are the 4 areas of the box model?
+border, margin , padding , content
+
+While using flexbox, what axis does the following property work on: align-items: center?
+the cross axis
+
+Explain why git is valuable to a team of developers.
+
+It is the central location for a teams projects. It allows access to a project to any team member at any time and location. it also allows to access files in previous save
