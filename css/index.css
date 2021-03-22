@@ -279,7 +279,7 @@ nav ul li{
 
 nav > ul > li > a{
     color: rgb(0, 0, 0);
-    display: inline-block;
+    display: inline-flex;
     flex-direction:row;
     nav-left:inherit;
     align-items: flex-start;
@@ -294,7 +294,7 @@ nav > ul > li > a{
 
 .logo-img{
     align-items:baseline;
-    float: left;
+    
     position:relative;
     margin-top:200px;
     margin-left:200px;
@@ -324,7 +324,7 @@ nav > ul > li > a{
 }
 
 footer{
-    display:inline-block;
+    display:flex;
 }
 .aboutstrategy{
     display:flex;
